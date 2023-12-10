@@ -48,6 +48,56 @@ h1 {
 
 .hero p {
   text-align: center;
-  font-size: 15px;
-  margin: 40px 30px 0 30px;
+  font-size: 18px;
+  margin: 40px 350px 0 350px;
+}
+
+.homepage-descriptions {
+  line-height: 30px;
+  padding: 0 0 0 40px;
+}
+
+.homepage-descriptions button {
+  color: #9175ce;
+  background-color: white;
+  margin: 15px 0 0 0;
+  padding: 12px 28px;
+  border: 2px solid #9175ce;
+  border-radius: 4px;
+  font-size: 13px;
+  font-weight: bold;
+  transition: all 200ms ease-out;
+}
+
+.homepage-descriptions button:hover {
+  color: white;
+  background-color: #9175ce;
+}
+
+img {
+  width: 100%;
+  border-radius: 4px;
+}
+
+img:hover {
+  transform: scale(0.9);
+}
+
+.col-lg h2 {
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 2;
+}
+
+@media (max-width: 900px) {
+  h1 {
+    font-size: 45px;
+  }
+  .col-lg h2 {
+    font-size: 35px;
+  }
+  .homepage-descriptions {
+    text-align: center;
+  }
 }
