@@ -155,4 +155,12 @@ h2 {
   .homepage-descriptions {
     text-align: center;
   }
+
+  .about-section {
+    width: 100%;
+  }
+
+  .about-h2 {
+    font-size: 15px;
+  }
 }
