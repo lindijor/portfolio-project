@@ -2,6 +2,10 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
+.about-body {
+  background-color: #eae6f4;
+}
+
 .hero {
   background-color: #eae6f4;
   padding: 100px 30px;
@@ -13,6 +17,12 @@ h1 {
   font-size: 60px;
   padding: 20px;
   text-align: center;
+}
+
+h2 {
+  text-align: center;
+  font-family: "Playfair Display", serif;
+  font-size: 30px;
 }
 
 .hero h2 {
@@ -74,13 +84,59 @@ h1 {
   background-color: #9175ce;
 }
 
-img {
+.about-section {
+  display: block;
+  margin: 50px auto;
+  width: 1000px;
+  padding: 30px 0;
+  background-color: white;
+  border-radius: 4px;
+}
+
+.about-page-button {
+  color: #9175ce;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  margin: 40px auto;
+  padding: 12px 28px;
+  border: 2px solid #9175ce;
+  border-radius: 4px;
+  font-size: 13px;
+  font-weight: bold;
+  transition: all 200ms ease-out;
+}
+
+.about-page-button:hover {
+  color: white;
+  background-color: #9175ce;
+}
+
+.about-text {
+  font-size: 15px;
+  line-height: 2;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 700px;
+  padding: 40px 0 0 0;
+}
+
+.project-imgage {
   width: 100%;
   border-radius: 4px;
 }
 
-img:hover {
+.project-image:hover {
   transform: scale(0.9);
+}
+
+.woman-coding-image {
+  display: block;
+  margin: 50px auto 20px;
+  width: 600px;
+  border-radius: 4px;
 }
 
 .col-lg h2 {
