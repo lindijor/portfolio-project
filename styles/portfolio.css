@@ -36,7 +36,7 @@ h2 {
   font-size: 15px;
 }
 
-.hero .buttons {
+.buttons {
   display: flex;
   justify-content: center;
 }
@@ -123,6 +123,22 @@ h2 {
   font-size: 35px;
   font-weight: bold;
   line-height: 2;
+}
+
+.work-container {
+  margin: 50px 0 0 0;
+}
+
+.work-container h2 {
+  font-weight: bold;
+}
+
+.work-container p {
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
 }
 
 @media (max-width: 900px) {
