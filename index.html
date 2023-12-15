@@ -25,26 +25,35 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles/portfolio.css" />
-
-    <title>Potfolio</title>
+    <meta
+      name="description"
+      content="Lindis Jørgensen is a front-end developer based in Oslo, Norway. Get more information and see some of her work here."
+    />
+    <title>Front-end developer | Lindis Jørgensen</title>
   </head>
   <body>
     <div class="navigation-section">
       <div class="container">
         <nav class="row navbar">
-          <a href="index.html" class="col">
-            <img src="images/logo.png" alt="" class="logo d-none d-md-block" />
+          <a href="index.html" title="Homepage" class="col">
+            <img
+              src="images/logo.png"
+              alt="logo"
+              class="logo d-none d-md-block"
+            />
             <img
               src="images/logo-small.png"
-              alt=""
+              alt="small logo"
               class="logo-small d-block d-md-none"
             />
           </a>
           <ul class="col d-flex justify-content-end">
-            <li><a href="index.html" class="active">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="work.html">Work</a></li>
-            <li><a href="contact.html">Contact</a></li>
+            <li>
+              <a href="index.html" title="Homepage" class="active">Home</a>
+            </li>
+            <li><a href="about.html" title="About">About</a></li>
+            <li><a href="work.html" title="Work">Work</a></li>
+            <li><a href="contact.html" title="Contact">Contact</a></li>
           </ul>
         </nav>
       </div>
@@ -60,8 +69,10 @@
         doloribus.
       </p>
       <div class="buttons">
-        <a href="about.html"><button class="color-button">About me</button></a>
-        <a href="contact.html"
+        <a href="about.html" title="About"
+          ><button class="color-button">About me</button></a
+        >
+        <a href="contact.html" title="Contact"
           ><button class="color-button">Contact me</button></a
         >
       </div>
@@ -71,7 +82,7 @@
         <div class="col-lg">
           <img
             src="/images/weather-app.png"
-            alt=""
+            alt="screenshot of weather app"
             class="project-image shadow"
           />
         </div>
@@ -83,14 +94,16 @@
             cupiditate maxime ut vitae doloremque quis repellat voluptas quo
             illum doloribus.
           </p>
-          <button class="white-button">Learn more</button>
+          <a href="work.html"
+            ><button class="white-button">Learn more</button></a
+          >
         </div>
       </div>
       <div class="row mt-5">
         <div class="col-lg">
           <img
             src="/images/world-clock.png"
-            alt=""
+            alt="screenshot of world clock"
             class="project-image shadow"
           />
         </div>
@@ -102,14 +115,16 @@
             cupiditate maxime ut vitae doloremque quis repellat voluptas quo
             illum doloribus.
           </p>
-          <button class="white-button">Learn more</button>
+          <a href="work.html"
+            ><button class="white-button">Learn more</button></a
+          >
         </div>
       </div>
       <div class="row mt-5">
         <div class="col-lg">
           <img
             src="/images/crochet-page.png"
-            alt=""
+            alt="screenshot of crochet page"
             class="project-image shadow"
           />
         </div>
@@ -121,7 +136,9 @@
             cupiditate maxime ut vitae doloremque quis repellat voluptas quo
             illum doloribus.
           </p>
-          <button class="white-button">Learn more</button>
+          <a href="work.html"
+            ><button class="white-button">Learn more</button></a
+          >
         </div>
       </div>
     </div>
@@ -130,12 +147,14 @@
       <div class="social-links d-flex justify-content-center">
         <p>
           <i class="fa-brands fa-linkedin"></i> <br />
-          <a href="https://linkedin.com" target="_blank">LinkedIn </a>
+          <a href="https://linkedin.com" target="_blank" title="LinkedIn"
+            >LinkedIn
+          </a>
         </p>
 
         <p>
           <i class="fa-solid fa-envelope"></i> <br />
-          <a href="mailto:jorgensenlindis@gmail.com">E-mail</a>
+          <a href="mailto:jorgensenlindis@gmail.com" title="E-mail">E-mail</a>
         </p>
       </div>
     </footer>
